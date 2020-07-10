@@ -1,4 +1,4 @@
-# 💧 plop-pack-helpers
+## 💧 plop-pack-helpers
 
 <a href="https://npmjs.com/package/@bradgarropy/plop-pack-helpers">
     <img alt="npm" src="https://img.shields.io/npm/v/@bradgarropy/plop-pack-helpers.svg?style=flat-square">
@@ -10,9 +10,7 @@
 
 _A collection of [plop][plop] helpers to make your life easier._
 
----
-
-## 📦 Installation
+### 📦 Installation
 
 This package is installable from [npm][npm].
 
@@ -20,7 +18,7 @@ This package is installable from [npm][npm].
 npm install --save-dev @bradgarropy/plop-pack-helpers
 ```
 
-## 🥑 Usage
+### 🥑 Usage
 
 Before you can use the `plop-pack`, you have to load it into the `plop` object.
 
@@ -35,7 +33,7 @@ Once loaded, you now have access the following helpers.
 `list`  
 `icon`
 
-## ❔ Questions
+### ❔ Questions
 
 If you have any trouble, definitely [open an issue][issue] and I'll take a look.
 
