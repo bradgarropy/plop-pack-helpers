@@ -32,14 +32,23 @@ Once loaded, you now have access the following helpers.
 
 Creates a slug for any input text.
 
+**input**
+
 ```javascript
-// input
-{ title: "This Is An Example Slug" }
+{
+    title: "This Is An Example Slug"
+}
+```
 
-// helper
+**helper**
+
+```handlebars
 {{slug title}}
+```
 
-// output
+**output**
+
+```javascript
 "this-is-an-example-slug"
 ```
 
@@ -47,34 +56,45 @@ Creates a slug for any input text.
 
 Creates a formatted date.
 
+**input**
+
+```json
+{}
+```
+
+**helper**
+
+```handlebars
+{{date}}
+```
+
+**output**
+
 ```javascript
-// input
-{
-}
-
-// helper
-{
-    {
-        date
-    }
-}
-
-// output
-;("2020-07-10")
+"2020-07-10"
 ```
 
 #### `list`
 
 Cleans up a comma separated list of values.
 
+**input**
+
 ```javascript
-// input
-{ tags: "one, two,  three,  four , five  " }
+{
+    tags: "one, two,  three,  four , five  "
+}
+```
 
-// helper
+**helper**
+
+```handlebars
 {{list tags}}
+```
 
-// output
+**output**
+
+```javascript
 "one, two, three, four, five"
 ```
 
@@ -82,14 +102,23 @@ Cleans up a comma separated list of values.
 
 This helper is very specific to [bradgarropy.com][bradgarropy]. It generates an icon given a topic.
 
+**input**
+
 ```javascript
-// input
-{ topic: "coding" }
+{
+    topic: "coding"
+}
+```
 
-// helper
+**helper**
+
+```handlebars
 {{icon topic}}
+```
 
-// output
+**output**
+
+```javascript
 "💻"
 ```
 
