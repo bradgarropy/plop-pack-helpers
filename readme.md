@@ -98,39 +98,15 @@ Cleans up a comma separated list of values.
 "one, two, three, four, five"
 ```
 
-#### `icon`
-
-This helper is very specific to [bradgarropy.com][bradgarropy]. It generates an icon given a topic.
-
-**input**
-
-```javascript
-{
-    topic: "coding"
-}
-```
-
-**helper**
-
-```handlebars
-{{icon topic}}
-```
-
-**output**
-
-```javascript
-"💻"
-```
-
 ### ❔ Questions
 
-If you have any trouble, definitely [open an issue][issue] and I'll take a look.
-
-If all else fails, you can ask me directly on [Twitter][twitter] or my [AMA][ama].
+🐛 report bugs by filing [issues][issues]  
+📢 provide feedback with [issues][issues] or on [twitter][twitter]  
+🙋🏼‍♂️ use my [ama][ama] or [twitter][twitter] to ask any other questions
 
 [plop]: https://plopjs.com
 [npm]: https://npmjs.com
 [bradgarropy]: https://bradgarropy.com
-[issue]: https://github.com/bradgarropy/plop-pack-helpers/issues
+[issues]: https://github.com/bradgarropy/plop-pack-helpers/issues
 [twitter]: https://twitter.com/bradgarropy
 [ama]: https://github.com/bradgarropy/ama
