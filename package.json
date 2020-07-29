@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/plop-pack-helpers",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "💧 plop helper pack",
     "keywords": [
         "plop",
@@ -25,16 +25,16 @@
     },
     "scripts": {},
     "dependencies": {
-        "plop-helper-date": "0.0.1",
-        "plop-helper-list": "0.0.1",
-        "plop-helper-slugify": "0.0.1"
+        "plop-helper-date": "^1.0.0",
+        "plop-helper-list": "^1.0.0",
+        "plop-helper-slugify": "^1.0.0"
     },
     "devDependencies": {
         "babel-eslint": "^10.1.0",
         "eslint": "^7.5.0",
         "eslint-config-bradgarropy": "^1.3.2",
         "eslint-plugin-jsx-a11y": "^6.3.1",
-        "eslint-plugin-react": "^7.20.4",
+        "eslint-plugin-react": "^7.20.5",
         "eslint-plugin-react-hooks": "^4.0.8"
     },
     "peerDependencies": {}
